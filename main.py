@@ -5,12 +5,12 @@ import random
 import string
 import os
 from time import sleep
-felix = "dev_15/13"
+dev1 = "dev_15/13"
+guest = "guest"
 
 
 
 
-i = input("please enter password:")
 
 
 def main():
@@ -38,19 +38,14 @@ def main():
      break
 
 
-
-
 def pass_check():
+ i = input("please enter password (enter guest if not dev) ")
  if i == felix:
   print(log, "correct password")
   print(log, "proceeding")
   main()
  elif not i == felix:
   print(log, "wrong password")
-  
+ elif i == guest
+    print("welcome guest")
 pass_check()
-
-
-
-
-
