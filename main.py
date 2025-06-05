@@ -17,7 +17,7 @@ def main():
  m = input("input gen speed")
  p = input("input number of keys generated ")
  x = 1
- while x < p:
+ while True:
 
   char = string.ascii_lowercase
   char_uppercase = string.ascii_uppercase
@@ -33,8 +33,8 @@ def main():
   print("key:", x, " ", j)
   x = x + 1
   sleep(0.3)
-
-
+  if x => p
+     break
 
 
 
