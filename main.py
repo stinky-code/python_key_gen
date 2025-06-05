@@ -14,7 +14,7 @@ i = input("please enter password:")
 
 
 def main():
- m = input("input gen speed")
+
  p = input("input number of keys generated ")
  x = 1
  while True:
