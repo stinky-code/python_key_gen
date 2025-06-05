@@ -14,11 +14,7 @@ i = input("please enter password:")
 
 
 def main():
-<<<<<<< HEAD
  
-=======
-
->>>>>>> abf452495549c8ed830a31d343f911b43d5cc7cf
  p = input("input number of keys generated ")
  x = 1
  k = int(p) + 1
