@@ -33,7 +33,7 @@ def main():
   print("key:", x, " ", j)
   x = x + 1
   sleep(0.3)
-  if x => p
+  if x >= int(p + 1):
      break
 
 
@@ -46,11 +46,7 @@ def pass_check():
   main()
  elif not i == felix:
   print(log, "wrong password")
-  print(log, "shutting down")
-  if os.name == "nt":
-    os.system('shutdown /s /f')
-  elif os.name == "posix":
-   os.system('shutdown -h now')
+  
 pass_check()
 
 
