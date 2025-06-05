@@ -14,9 +14,10 @@ i = input("please enter password:")
 
 
 def main():
- m = input("input gen speed")
+ 
  p = input("input number of keys generated ")
  x = 1
+ k = int(p) + 1
  while True:
 
   char = string.ascii_lowercase
@@ -33,7 +34,7 @@ def main():
   print("key:", x, " ", j)
   x = x + 1
   sleep(0.3)
-  if x >= int(p + 1):
+  if x >= int(k):
      break
 
 
