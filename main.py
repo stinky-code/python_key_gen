@@ -44,8 +44,9 @@ def pass_check():
   print(log, "correct password")
   print(log, "proceeding")
   main()
- elif not i == dev1:
-  print(log, "wrong password")
- elif i == guest
+ elif i == guest:
     print("welcome guest")
+    main()
+ elif not i == guest or dev1:
+   print("wrong password")
 pass_check()
