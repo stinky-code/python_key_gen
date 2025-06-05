@@ -40,11 +40,11 @@ def main():
 
 def pass_check():
  i = input("please enter password (enter guest if not dev) ")
- if i == felix:
+ if i == dev1:
   print(log, "correct password")
   print(log, "proceeding")
   main()
- elif not i == felix:
+ elif not i == dev1:
   print(log, "wrong password")
  elif i == guest
     print("welcome guest")
